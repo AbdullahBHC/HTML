@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Örnek Uygulama 3 ( Haftalık Program )</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+    table {
+        border: 1px solid black;
+        width: 50%;
+        height: 50%;
+    }
+
+    th,
+    td {
+        border: 1px solid red;
+        width: 100px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+</style>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Pazartesi</th>
+                <th>Salı</th>
+                <th>Çarşamba</th>
+                <th>Perşembe</th>
+                <th>Cuma</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td colspan="5">Hazırlık</td>
+            </tr>
+            <tr>
+                <td>8:00 - 09:00</td>
+                <td colspan="5">Yolculuk</td>
+            </tr>
+            <tr>
+                <td>09:00 - 15:00</td>
+                <td colspan="5">Okul</td>
+            </tr>
+            <tr>
+                <td>15:00 - 18:00</td>
+                <td rowspan="3">Ev</td>
+                <td rowspan="2">Dershane</td>
+                <td rowspan="3">Buluşma</td>
+                <td rowspan="2">Dershane</td>
+                <td rowspan="2">Gezme</td>
+            </tr>
+            <tr>
+                <td>18:00 - 21:00</td>
+            </tr>
+            <tr>
+                <td>21:00 - 23:00</td>
+                <td>Ev</td>
+                <td colspan="2">Test Çözme</td>
+            </tr>
+            <tr>
+                <td>23:00 - 00:00</td>
+                <td colspan="5">Uyuma Modu</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

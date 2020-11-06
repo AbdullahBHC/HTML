@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>form Etiketi</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<style>
+    .input,select{
+        margin: 1.5%;
+        width: 20%;
+    }
+
+    .radio{
+        width: 3%;
+    }
+
+    body{
+        background-color :darkslategray;
+    }
+    
+</style>
+<body>
+
+    <form  method="GET">
+        <input type="text" class="input" name="İsim" id="İsim" placeholder="İsminiz"><br>
+        <input type="password" class="input" name="Sifre" id="Sifre" placeholder="Şifreniz"><br>
+        <input type="radio" class="radio" name="Cinsiyet" value="Erkek">Erkek
+        <input type="radio" class="radio" name="Cinsiyet" value="Kadın">Kadın<br>
+        <select name="Sehir" id="Sehir">
+            <option value="Belirtmek İstemiyorum">Belirtmek İstemiyorum</option>
+            <option value="İstanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+            <option value="İzmir">İzmir</option>
+        </select><br>
+        <input type="submit" class="input" value="Gönder">
+    </form>
+
+</body>
+
+</html>

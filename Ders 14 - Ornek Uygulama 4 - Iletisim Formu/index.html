@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<style>
+    .input {
+        margin: 10px;
+        width: 100px;
+        margin-left: 0px;
+    }
+
+    .ozel {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+
+<body>
+
+    <form method="GET">
+        İsim : <input class="input" type="text" name="İsim" placeholder="İsim"><br>
+        Soyisim : <input class="input" type="text" name="Soyisim" placeholder="Soyisim"><br>
+        Sevdiğiniz Spor : <input class="ozel" type="checkbox" name="Spor" value="Futbol">Futbol
+        <input type="checkbox" name="Spor" value="Basketbol">Basketbol
+        <input type="checkbox" name="Spor" value="Voleybol">Voleybol <br>
+        Cinsiyet : <input class="ozel" type="radio" name="Cinsiyet" value="Erkek"> Erkek
+        <input type="radio" name="Cinsiyet" value="Kadın"> Kadın <br><br>
+        Güvenlik Sorusu : Türkiye'nin Başkenti Neresidir ?<br><br>
+        <select name="Baskent">
+            <option value="Boş Cevap">Lütfen Bir Cevap Seçiniz...</option>
+            <option value="İstanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+            <option value="İzmir">İzmir</option>
+        </select><br>
+        <input class="input" type="submit" value="Kayıt Ol">
+    </form>
+
+</body>
+
+</html>
